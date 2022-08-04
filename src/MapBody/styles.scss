@@ -1,0 +1,127 @@
+@import url("http://fonts.cdnfonts.com/css/menlo");
+@import url("https://rsms.me/inter/inter.css");
+
+.map-body-container {
+  background-color: #1b1b1b;
+  height: calc(100vh - 97px);
+  width: 100vw;
+  display: flex;
+  // flex: 5;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.map-body-left-section {
+  // flex: 2;
+  min-width: 380px;
+  overflow-y: scroll;
+  display: flex;
+  justify-content: start;
+  padding: 30px;
+  h2 {
+    color: #fff;
+  }
+
+  h3,
+  h4 {
+    color: #cdcdcd;
+    font-family: "Inter var", sans-serif;
+    margin-top: 15px;
+  }
+
+  li {
+    color: #cdcdcd;
+    cursor: pointer;
+    text-decoration: none;
+    list-style-type: none;
+    margin-left: 16px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .array-properties {
+    margin-top: 10px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    cursor: pointer;
+
+    div {
+      color: #cdcdcd !important;
+      font-family: "Menlo", sans-serif !important;
+    }
+  }
+
+  .array-methods {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    cursor: pointer;
+
+    div {
+      color: #cdcdcd;
+      cursor: pointer;
+      font-family: "Menlo", sans-serif !important;
+    }
+  }
+
+  .expanded {
+    transform: rotate(0.75turn);
+  }
+}
+
+.map-body-center-section {
+  flex: 1;
+  // width: 700px;
+  // border: 2px solid wheat;
+  font-family: "Inter";
+  padding-top: 35px;
+  padding: 35px 20px 0 20px;
+
+  h1 {
+    color: #fff;
+    // text-align: center;
+    // margin-left: 25px;
+  }
+
+  .map-body-center-container {
+    margin-left: 30px;
+
+    .map-method-definition {
+      color: #cdcdcd;
+      margin-top: 20px;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    }
+  }
+}
+
+.map-body-right-section {
+  // flex: 2;
+  min-width: 540px;
+  // border: 2px solid gray;
+  padding: 35px 10px 0 10px;
+  list-style-type: none;
+  color: #cdcdcd;
+
+  .article-list-container {
+    margin-top: 35px;
+    // padding: 25px, 0px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-left: 2px solid #cdcdcd;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .article-list-items {
+    color: #cdcdcd;
+    // padding-left: 15px;
+    // padding: 30px, 0, 20px, 15px;
+    // margin: 30px, 0, 20px, 15px;
+    // margin: 10px, 20px;
+    padding: 10px;
+  }
+}

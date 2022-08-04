@@ -1,0 +1,45 @@
+$nav-background-color: #343434;
+$nav-border-color: #858585;
+$nav-font-color: #cdcdcd;
+$font-family: Inter;
+$nav-chevron-url: "https://developer.mozilla.org/static/media/chevron.05a124d379047e16d746.svg";
+
+.nav-container {
+  background-color: $nav-background-color;
+  width: 100vw;
+  height: 32px;
+  border-top: 1px solid $nav-border-color;
+  border-bottom: 1px solid $nav-border-color;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  span {
+    color: $nav-font-color;
+    margin-left: 16px;
+    font-family: $font-family;
+    width: max-content;
+  }
+}
+
+.nav-left-section {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex: 1;
+
+  span {
+    &::after {
+      content: ">";
+      padding-left: 12px;
+    }
+  }
+}
+
+.nav-right-section {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex: 1;
+  padding-right: 16px;
+}

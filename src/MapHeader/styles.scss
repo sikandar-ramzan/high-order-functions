@@ -1,0 +1,36 @@
+.header-container {
+  background-color: #1b1b1b;
+  height: 65px;
+  width: 100vw;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 20px;
+
+  span {
+    color: #cdcdcd;
+    padding: 10px;
+  }
+
+  .header-logo-text {
+    color: #8cb4ff;
+    padding: 0 !important;
+  }
+}
+.header-left-section {
+  display: flex;
+  justify-content: space-around;
+  min-width: fit-content;
+  align-items: center;
+}
+.header-right-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  .header-getmdn-bttn {
+    height: 32px;
+    width: 124px;
+  }
+}
