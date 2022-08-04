@@ -26,7 +26,17 @@
   h4 {
     color: #cdcdcd;
     font-family: "Inter var", sans-serif;
-    margin-top: 15px;
+    // margin-top: 15px;
+  }
+  .left-section-headings {
+    // margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    h3,
+    h4 {
+      margin-top: 20px;
+    }
   }
 
   li {

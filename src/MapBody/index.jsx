@@ -20,8 +20,11 @@ const MapBody = () => {
       <div className="map-body-left-section">
         <div className="documentation-index-container">
           <h2>Related Topics</h2>
-          <h3>Standard built-in objects</h3>
-          <h4>Array</h4>
+          <div className="left-section-headings">
+            <h3>Standard built-in objects</h3>
+            <h4>Array</h4>
+          </div>
+
           <div className="array-properties" onClick={toggleShowProps}>
             <span className={!showProps ? "expanded" : ""}>
               <ChevronDown />
