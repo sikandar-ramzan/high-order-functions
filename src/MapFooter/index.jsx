@@ -1,8 +1,14 @@
 import React from "react";
-import "./styles.css";
+import "./styles.scss";
+import { sdn } from "./FOOTER-DOCS";
 
 const MapFooter = () => {
-  return <div>Map Footer Here!</div>;
+  return (
+    <div className="footer-container">
+      <div className="footer-items">{sdn}</div>
+      <div className="footer-items">&copy; Sikandar Ramzan</div>
+    </div>
+  );
 };
 
 export default MapFooter;
