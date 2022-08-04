@@ -42,4 +42,17 @@ $nav-chevron-url: "https://developer.mozilla.org/static/media/chevron.05a124d379
   justify-content: flex-end;
   flex: 1;
   padding-right: 16px;
+
+  span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 5px;
+    // color: white;
+  }
+  img {
+    height: 16px;
+    width: 16px;
+  }
 }

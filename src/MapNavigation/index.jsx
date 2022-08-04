@@ -1,20 +1,22 @@
 import React from "react";
 import "./styles.scss";
+import { navItems } from "./NAV-DOCS";
+import globe from "../assets/globe.png";
 
 const MapNavigation = () => {
   return (
     <>
       <div className="nav-container">
         <div className="nav-left-section">
-          <span>References</span>
-          <span>JavaScript</span>
-          <span>JavaScript</span>
-          <span>Standar built-in object</span>
-          <span>Array</span>
-          <span>Array.prototype.map()</span>
+          {navItems.map((navItem, itemIdx) => (
+            <span key={itemIdx}>{navItem}</span>
+          ))}
         </div>
 
         <div className="nav-right-section">
+          <span>
+            <img src={globe} alt="globe-icon"></img>
+          </span>
           <span>English (US)</span>
         </div>
       </div>
