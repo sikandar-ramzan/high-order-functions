@@ -1,7 +1,7 @@
 .header-container {
   background-color: #1b1b1b;
   height: 65px;
-  width: 100vw;
+  // width: 100vw;
 
   display: flex;
   flex-direction: row;
@@ -11,6 +11,13 @@
   span {
     color: #cdcdcd;
     padding: 10px;
+  }
+
+  .header-logo {
+    cursor: pointer;
+    &:hover {
+      color: #fe0000 !important;
+    }
   }
 
   .header-logo-text {

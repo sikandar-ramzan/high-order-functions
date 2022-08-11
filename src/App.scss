@@ -1,0 +1,25 @@
+.app {
+  /* height: 100vh;
+  width: 100vw;
+  background-color: #24292e;
+  border: 1px solid #32383f;
+  display: flex;
+  align-items: center;
+  justify-content: center; */
+}
+
+.main-body {
+  padding: 20px;
+}
+
+.items {
+  margin-left: 15px;
+}
+
+.hof-list-item {
+  cursor: pointer;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  &:hover {
+    color: #fe0000;
+  }
+}

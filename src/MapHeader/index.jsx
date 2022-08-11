@@ -1,11 +1,11 @@
 import React from "react";
 import "./styles.scss";
 
-const MapHeader = () => {
+const MapHeader = ({ setCurrentPage }) => {
   return (
     <div className="header-container">
       <div className="header-left-section">
-        <span className="header-logo">
+        <span className="header-logo" onClick={() => setCurrentPage("home")}>
           MDN WebDocs<span className="header-logo-text">__</span>
         </span>
         <span className="header-references">References</span>
