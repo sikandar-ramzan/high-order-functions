@@ -1,12 +1,10 @@
 # Created MDN docs clone, SDN, to polish my JS skills.
 
-Project by: Sikandar Ramzan
+## Project by: Sikandar Ramzan
 
-Contributors: [Abdullah Shehzad](https://github.com/abdullahshahzad7890)
+## Contributors: [Abdullah Shehzad](https://github.com/abdullahshahzad7890)
 
-https://app.netlify.com/sites/js-high-order-functions/settings/domain
-
-## The website is live at: https://js-high-order-functions.netlify.app/
+## The website is live at: [js-high-order-functions](https://js-high-order-functions.netlify.app/)
 
 ## To run app on local environment, clone the repo and run following command:
 
