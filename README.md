@@ -1,6 +1,7 @@
 # Created MDN docs clone, SDN, to polish my JS skills.
 
 Project by: Sikandar Ramzan
+
 Contributors: [Abdullah Shehzad](https://github.com/abdullahshahzad7890)
 
 https://app.netlify.com/sites/js-high-order-functions/settings/domain
